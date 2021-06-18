@@ -7,10 +7,10 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/victorsteven/forum/api/auth"
-	"github.com/victorsteven/forum/api/models"
-	"github.com/victorsteven/forum/api/security"
-	"github.com/victorsteven/forum/api/utils/formaterror"
+	"github.com/yabs-bae/forum-app/api/auth"
+	"github.com/yabs-bae/forum-app/api/models"
+	"github.com/yabs-bae/forum-app/api/security"
+	"github.com/yabs-bae/forum-app/api/utils/formaterror"
 	"golang.org/x/crypto/bcrypt"
 )
 

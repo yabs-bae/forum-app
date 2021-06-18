@@ -8,10 +8,10 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/victorsteven/forum/api/mailer"
-	"github.com/victorsteven/forum/api/models"
-	"github.com/victorsteven/forum/api/security"
-	"github.com/victorsteven/forum/api/utils/formaterror"
+	"github.com/yabs-bae/forum-app/api/mailer"
+	"github.com/yabs-bae/forum-app/api/models"
+	"github.com/yabs-bae/forum-app/api/security"
+	"github.com/yabs-bae/forum-app/api/utils/formaterror"
 )
 
 func (server *Server) ForgotPassword(c *gin.Context) {

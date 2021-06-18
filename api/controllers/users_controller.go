@@ -2,20 +2,21 @@ package controllers
 
 import (
 	"encoding/json"
-	"github.com/victorsteven/forum/api/fileupload"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"strconv"
 
+	"github.com/yabs-bae/forum-app/api/fileupload"
+
 	"github.com/joho/godotenv"
 	"golang.org/x/crypto/bcrypt"
 
 	"github.com/gin-gonic/gin"
-	"github.com/victorsteven/forum/api/auth"
-	"github.com/victorsteven/forum/api/models"
-	"github.com/victorsteven/forum/api/security"
-	"github.com/victorsteven/forum/api/utils/formaterror"
+	"github.com/yabs-bae/forum-app/api/auth"
+	"github.com/yabs-bae/forum-app/api/models"
+	"github.com/yabs-bae/forum-app/api/security"
+	"github.com/yabs-bae/forum-app/api/utils/formaterror"
 )
 
 func (server *Server) CreateUser(c *gin.Context) {
